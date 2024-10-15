@@ -1,0 +1,34 @@
+#myBox {
+    display: flex; /* Flexible Content */
+    align-items: center; /* Vertically align center */
+    text-align: center;
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    font-size: 4rem;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+#myButton {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: hsl(210, 100%, 50%);
+    color: #fff;
+}
+
+#myButton:active {
+    background-color: hsl(210, 100%, 60%);
+}
+
+.clickBox {
+    display: flex; /* Flexible Content */
+    flex-direction: column;
+    align-items: center; /* Vertically align center */
+    justify-content: center;
+    min-height: 90vh;
+}
